@@ -1,4 +1,3 @@
-# EduRev
 edurev-website/
 │
 ├── backend/
@@ -8,17 +7,19 @@ edurev-website/
 │   ├── config/
 │   │   └── db.js
 │   ├── models/
+│   │   ├── userModel.js
 │   │   └── contactModel.js
 │   ├── routes/
+│   │   ├── authRoutes.js
 │   │   └── contactRoutes.js
 │   └── controllers/
+│       ├── authController.js
 │       └── contactController.js
 │
 ├── frontend/
 │   ├── package.json
-│   ├── vite.config.js (if using Vite)
+│   ├── vite.config.js
 │   ├── public/
-│   │   └── favicon.ico
 │   └── src/
 │       ├── App.jsx
 │       ├── main.jsx
@@ -28,10 +29,14 @@ edurev-website/
 │       │   ├── Footer.jsx
 │       │   ├── HeroSection.jsx
 │       │   ├── AboutSection.jsx
-│       │   └── ContactForm.jsx
+│       │   ├── ContactForm.jsx
+│       │   ├── LoginForm.jsx
+│       │   └── SignupForm.jsx
 │       ├── pages/
 │       │   ├── Home.jsx
-│       │   └── Contact.jsx
+│       │   ├── Contact.jsx
+│       │   ├── Login.jsx
+│       │   └── Signup.jsx
 │       └── assets/
 │           └── logo.png
 │
